@@ -2,8 +2,9 @@ from flask import jsonify
 
 from app import app
 
-@app.route('/ai/predict', methods=['GET'])
+@app.route('/', methods=['GET'])
 def root():
     return jsonify({
-        "status": "API Online v1"
+        "status": True,
+        'message': 'API Online v0.1.0'
     })

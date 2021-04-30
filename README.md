@@ -1,4 +1,2 @@
 # ml_api
-API Flask project to provide ML model
-
-Project developed at Iconex
+Flask API providing the Feelings Identifier Model
